@@ -1,0 +1,10 @@
+langchain
+langchain-community
+chromadb
+faiss-cpu
+scikit-learn
+sentence-transformers
+groq
+pydantic
+streamlit
+python-dotenv

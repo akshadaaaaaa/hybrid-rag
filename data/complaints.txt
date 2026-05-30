@@ -1,0 +1,10 @@
+Customer complaint: My payment was declined three times today.
+Customer complaint: The mobile app keeps crashing when I try to login.
+Customer complaint: I was charged twice for the same transaction.
+Customer complaint: Cannot reset my password, email not arriving.
+Customer complaint: My account was locked without any explanation.
+Customer complaint: Transfer took 5 days but was promised same day.
+Customer complaint: Customer service kept me on hold for 2 hours.
+Customer complaint: Wrong amount deducted from my account.
+Customer complaint: App shows incorrect balance since last update.
+Customer complaint: Direct debit failed despite sufficient funds.
