@@ -11,8 +11,8 @@ class HybridSearch:
     """
 
     def __init__(self, model_name:str="all-MiniLM-L6-v2"):
-        self.model = SentenceTransformer(model_name) #ek isse search karenge
-        self.tfidf = TfidfVectorizer()  #ek isse search karenge
+        self.model = SentenceTransformer(model_name) 
+        self.tfidf = TfidfVectorizer() 
         self.chunks = []
         self.index = None
         self.tfidf_matrix = None
@@ -40,7 +40,6 @@ class HybridSearch:
 
         print(f"Indexed {len(chunks)} chunks")
 
-#Librarian 1- searches seperately
     def semantic_search(self, query:str, k: int = 3)-> list[tuple[str,float]]:
         """Search using vector embeddings- finds semantically similar chunks
 
@@ -67,7 +66,6 @@ class HybridSearch:
 
         return results
 
-#Librarian 2- searches seperately
 
     def keyword_search(self,query:str,k:int=3)-> list[tuple[str,float]]:
         """Search using TF-IDF - finds chunks with matching keywords
