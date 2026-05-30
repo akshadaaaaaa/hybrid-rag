@@ -1,5 +1,7 @@
 # HybridRAG — Semantic vs Keyword vs Hybrid Search
 
+🚀 **Live Demo:** [Click here](https://hybrid-rag-fuv5tf4tbewedulenlld37.streamlit.app/)
+
 A RAG system that compares three retrieval methods side by side.
 
 ## What it does
