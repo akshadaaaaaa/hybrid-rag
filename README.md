@@ -16,6 +16,24 @@ Semantic search misses exact technical terms.
 Keyword search misses meaning.
 Hybrid search catches both.
 
+## Retrieval Evaluation
+
+Evaluated on a ground-truth set of 10 queries (K=3):
+
+| Method   | Precision@3 | MRR  | NDCG@3 |
+|----------|-------------|------|--------|
+| Semantic | 0.533*      | 1.00 | 0.992  |
+| Keyword  | 0.400       | 1.00 | 1.000  |
+| Hybrid   | 0.533*      | 1.00 | 0.992  |
+
+\*0.533 is the maximum achievable P@3 on this ground truth — most queries
+have fewer than 3 relevant chunks, so semantic and hybrid retrieved every
+relevant chunk available.
+
+**Key finding:** on a small, clean corpus the 70/30 hybrid weighting is
+dominated by semantic scores. Next steps: larger/noisier corpus, harder
+eval queries, Reciprocal Rank Fusion, and cross-encoder reranking.
+
 ## Tech stack
 Python · FAISS · scikit-learn · LangChain ·
 sentence-transformers · Groq · Streamlit
