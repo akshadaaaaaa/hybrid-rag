@@ -1,0 +1,68 @@
+[
+  {
+    "query": "payment declined",
+    "relevant_chunks": [
+      "Customer complaint: My payment was declined three times today.",
+      "Customer complaint: Direct debit failed despite sufficient funds."
+    ]
+  },
+  {
+    "query": "app crashing",
+    "relevant_chunks": [
+      "Customer complaint: The mobile app keeps crashing when I try to login."
+    ]
+  },
+  {
+    "query": "charged twice same transaction",
+    "relevant_chunks": [
+      "Customer complaint: I was charged twice for the same transaction.",
+      "Customer complaint: Wrong amount deducted from my account."
+    ]
+  },
+  {
+    "query": "password reset not working",
+    "relevant_chunks": [
+      "Customer complaint: Cannot reset my password, email not arriving."
+    ]
+  },
+  {
+    "query": "account locked",
+    "relevant_chunks": [
+      "Customer complaint: My account was locked without any explanation."
+    ]
+  },
+  {
+    "query": "transfer delayed",
+    "relevant_chunks": [
+      "Customer complaint: Transfer took 5 days but was promised same day."
+    ]
+  },
+  {
+    "query": "long wait customer support",
+    "relevant_chunks": [
+      "Customer complaint: Customer service kept me on hold for 2 hours."
+    ]
+  },
+  {
+    "query": "wrong balance shown in app",
+    "relevant_chunks": [
+      "Customer complaint: App shows incorrect balance since last update.",
+      "Customer complaint: Wrong amount deducted from my account."
+    ]
+  },
+  {
+    "query": "direct debit not processed",
+    "relevant_chunks": [
+      "Customer complaint: Direct debit failed despite sufficient funds.",
+      "Customer complaint: My payment was declined three times today."
+    ]
+  },
+  {
+    "query": "cannot login to account",
+    "relevant_chunks": [
+      "Customer complaint: The mobile app keeps crashing when I try to login.",
+      "Customer complaint: My account was locked without any explanation.",
+      "Customer complaint: Cannot reset my password, email not arriving."
+    ]
+  }
+]
